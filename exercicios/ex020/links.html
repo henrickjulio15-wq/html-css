@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            font-family: Arial, sans-serif;
+            color: #380202;
+            text-decoration: none;
+        }
+        a:visited{
+            color: #0000ff;
+        }
+        a:hover{
+            color: #ff0000;
+        }
+        a:active{
+            color: #00ff00;
+        }
+        .especial::after{
+            content: "⬅️";
+        }
+        .especial::before{
+            content: "➡️";
+        }
+        .especial{
+            background-color: #df9a9a;
+                padding: 3px;
+                border-radius: 3px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Links</h1>
+    <ul>
+        <li><a class="especial" href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a class="especial" href="https://www.github.com" target="_blank">GitHub</a></li>
+        <li><a class="especial" href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+    </ul>
+</body>
+</html>

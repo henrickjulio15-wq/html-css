@@ -1,0 +1,71 @@
+
+body {
+    background-color: #f0f0f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1
+{
+    color: #3b2517;
+    text-align: left;
+    background-color: blanchedalmond;
+    font-size: 1.5em;
+}
+h2
+{
+    color: #3b2517;
+    text-align: left;
+    font-size: 1.25em;
+}
+#principal
+{
+    color: #3b2517;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: serif;
+    font-size: 3em;
+}
+p
+{
+    color: #3b2517;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+}
+main
+{
+    background-color: rgb(228, 206, 206);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin: 0 auto;
+}
+.basica
+{
+    background-color: #cee4d0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.intermediario
+{
+    background-color: #e9acac;
+    padding: 5px;
+    border-radius: 5px;
+}
+.avançado
+{
+    background-color: #ced0e4;
+    padding: 5px;
+    border-radius: 5px;
+}
+.destaque
+{
+    background-color: #f9e79f;
+    padding: 5px;
+    border-radius: 5px;
+} 
+.primeiro
+{
+    background-color: #f9e79f73;
+    padding: 5px;
+    border-radius: 5px;
+}  

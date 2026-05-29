@@ -1,0 +1,27 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times,
+}
+body{
+    background-image: linear-gradient(to right, #BF9B7A, #8C5B3E);
+    background-size: fixed; 
+    font-size: 22px;  }
+main{
+    width: 900px;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #3f2c20be;
+    
+}
+h1{
+    text-align: center;
+    color: #593E2E;
+    text-shadow: #36261ca9 1px 1px 4px;
+}
+h2{
+    color: #555934;
+}
+p{
+    text-align: justify;
+}
